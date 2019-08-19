@@ -2,9 +2,9 @@
 name: my_action
 pack: pack_kulkarni 
 runner_type: "python-script" 
-description: action open web response! 
+description: action open web response 
 enabled: true 
-entry_point: my_action.py 
+entry_point: actions.py 
 parameters:
      url:
         type: string
